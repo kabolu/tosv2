@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/tosv2" docBase="tosv2" debug="5" reloadable="true" crossContext="true">
+<Resource name="jdbc/tosv2"
+   auth="Container"
+   type="oracle.jdbc.pool.OracleDataSource"
+   driverClassName="oracle.jdbc.driver.OracleDriver"
+   factory="oracle.jdbc.pool.OracleDataSourceFactory"
+   url="jdbc:oracle:thin:@10.100.3.81:1521:mustdb"
+   user="cbps"
+   password="c2b0p8s7"
+   maxActive="30"
+   maxIdle="10"
+   maxWait="5000" />
+</Context>
+
+<!-- 
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/tosv2" docBase="tosv2" debug="5" reloadable="true" crossContext="true">
+<Resource name="jdbc/tosv2"
+   auth="Container"
+   type="oracle.jdbc.pool.OracleDataSource"
+   driverClassName="oracle.jdbc.driver.OracleDriver"
+   factory="oracle.jdbc.pool.OracleDataSourceFactory"
+   url="jdbc:oracle:thin:@10.100.3.91:1521:testdb"
+   user="cbps"
+   password="c2b0p8s7"
+   maxActive="20"
+   maxIdle="10"
+   maxWait="-1" />
+</Context>
+-->
