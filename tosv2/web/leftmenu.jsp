@@ -675,7 +675,7 @@ function checkDelOrders(id){
   <tr>
     <td align="center"> 
       <!-- 3.0 -->
-      <p>訂書管理系統  version 3.1</p>
+      <p>訂書管理系統  version 3.0</p>
     </td>
   </tr>
 </table>
